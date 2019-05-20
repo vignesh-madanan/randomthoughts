@@ -3,9 +3,9 @@ import pandas as pd
 
     
 def web_scrapper():
-    my_client_id="lYKldHBGtrBYog"
-    my_client_secret="kSdlOgNyyI7OvrTlfJ8lRuDlweg"
-    user_agent="ShowerThoughtsApp"
+    my_client_id="YOUR_ID"
+    my_client_secret="YOUR_SECRETE_KEY"
+    user_agent="YOUR_APP_NAME"
     reddit = praw.Reddit(client_id=my_client_id, client_secret=my_client_secret, user_agent=user_agent)
     
     posts = []
